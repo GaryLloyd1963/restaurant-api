@@ -1,4 +1,8 @@
-﻿using restaurantAPI.Controllers;
+﻿using restaurantAPI.Interface;
+using restaurantAPI.Repository;
+using restaurantAPI.Services;
+using restaurantAPI.Model;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -10,6 +14,8 @@ builder.Services.AddOpenApi();
 builder.Services.AddEndpointsApiExplorer();
 
 builder.Services.AddSwaggerGen();
+builder.Services.AddSingleton<IRestaurantRepository, RestaurantRepository>();
+builder.Services.AddSingleton<IRestaurantService, RestaurantService>();
 
 var app = builder.Build();
 
