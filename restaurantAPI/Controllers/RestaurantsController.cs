@@ -18,7 +18,7 @@ namespace restaurantAPI.Controllers
         {
             new Restaurant { Id = Guid.NewGuid(), Name = "Casa Roberto", Address = "1 Acacia Avenue", Phone = "1234567890" },
             new Restaurant { Id = Guid.NewGuid(), Name = "Kaths Cafe", Address = "Albert Square", Phone = "0987654321" },
-            new Restaurant { Id = Guid.NewGuid(), Name = "Loads Of Dosh", Address = "Binks Yard", Phone = "1122334455" },
+            new Restaurant { Id = Guid.NewGuid(), Name = "Loads Of Nosh", Address = "Binks Yard", Phone = "1122334455" },
             new Restaurant { Id = Guid.NewGuid(), Name = "Hot Curry Time", Address = "Maid Marion Way", Phone = "2233445566" },
             new Restaurant { Id = Guid.NewGuid(), Name = "Mexican Standoff", Address = "Hockley", Phone = "3344556677" }
         };
