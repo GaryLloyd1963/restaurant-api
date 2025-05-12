@@ -1,6 +1,10 @@
-﻿using Microsoft.AspNetCore.OpenApi;
-using Microsoft.AspNetCore.Http.HttpResults;
-namespace restaurantAPI.Model
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace RestaurantCore.Model
 {
     public class Restaurant
     {

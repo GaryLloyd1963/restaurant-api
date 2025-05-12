@@ -6,9 +6,9 @@ namespace SqliteInfrastructure
     {
         private static readonly string restaurantDbConnectionString = "Data Source=restaurants.db";
 
-        public static string BuildDatabase()
+        public static string BuildDatabase(bool populate)
         {
-            return BuildRestaurantDatabase();
+            return BuildRestaurantDatabase(populate);
         }
 
         private static bool TableExists(SqliteConnection connection, string tableName)
@@ -19,11 +19,8 @@ namespace SqliteInfrastructure
             return result != null;
         }
 
-        private static void CreateAndBuildRestaurantsTable(SqliteConnection connection)
+        private static void CreateRestaurantsTable(SqliteConnection connection)
         {
-            if (TableExists(connection, "Restaurants"))
-                return;
-
             var command = connection.CreateCommand();
             command.CommandText = @" CREATE TABLE Restaurants (
                         Id INTEGER PRIMARY KEY,
@@ -34,14 +31,30 @@ namespace SqliteInfrastructure
             command.ExecuteNonQuery();
         }
 
-        private static string BuildRestaurantDatabase()
+        private static void PopulateRestaurantsTable(SqliteConnection connection)
+        {
+            var command = connection.CreateCommand();
+            foreach (var restaurant in SqliteDBTestData.restaurantData)
+            {
+                command.CommandText = @"INSERT INTO Restaurants (UUID, Name, Address, Phone) VALUES
+                    ('" + restaurant.Id + "', '" + restaurant.Name + "', '" + restaurant.Address + "', '" + restaurant.Phone + "')";
+                command.ExecuteNonQuery();
+            }
+        }
+
+        private static string BuildRestaurantDatabase(bool populate)
         {
             try
             {
                 using (var connection = new SqliteConnection(restaurantDbConnectionString))
                 {
                     connection.Open();
-                    CreateAndBuildRestaurantsTable(connection);
+                    if (!TableExists(connection, "Restaurants"))
+                    {
+                        CreateRestaurantsTable(connection);
+                        if (populate)
+                            PopulateRestaurantsTable(connection);
+                    }
                 }
                 Console.WriteLine("Built Restaurant Database");
                 return "success";

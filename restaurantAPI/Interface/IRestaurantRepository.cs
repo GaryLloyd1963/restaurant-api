@@ -1,4 +1,4 @@
-﻿using restaurantAPI.Model;
+﻿using RestaurantCore.Model;
 
 namespace restaurantAPI.Interface
 {

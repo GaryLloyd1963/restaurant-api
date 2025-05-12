@@ -1,7 +1,7 @@
 ﻿using restaurantAPI.Interface;
 using restaurantAPI.Repository;
 using restaurantAPI.Services;
-using restaurantAPI.Model;
+using RestaurantCore.Model;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -24,7 +24,7 @@ if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
 
-    SqliteInfrastructure.SqliteDBBuilder.BuildDatabase();
+    SqliteInfrastructure.SqliteDBBuilder.BuildDatabase(true);
 }
 
 if (app.Environment.IsDevelopment())

@@ -1,12 +1,12 @@
 ﻿using restaurantAPI.Interface;
-using restaurantAPI.Model;
+using RestaurantCore.Model;
 
 namespace restaurantAPI.Repository
 {
     public class RestaurantRepository : IRestaurantRepository
     {
         private static readonly Restaurant[] restaurantData = new[]
-{
+        {
             new Restaurant { Id = Guid.NewGuid(), Name = "Casa Roberto", Address = "1 Acacia Avenue", Phone = "1234567890" },
             new Restaurant { Id = Guid.NewGuid(), Name = "Kaths Cafe", Address = "Albert Square", Phone = "0987654321" },
             new Restaurant { Id = Guid.NewGuid(), Name = "Loads Of Nosh", Address = "Binks Yard", Phone = "1122334455" },
