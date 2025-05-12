@@ -7,6 +7,18 @@
       "RelativeMoniker": "D:0:0:{2FFAE6DD-DEF2-4175-BC74-DD932725893F}|SqliteInfrastructure\\SqliteInfrastructure.csproj|solutionrelative:sqliteinfrastructure\\sqlitedbbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8426C5CB-8EC1-45B7-A56C-0EB9D83E0E8F}|restaurantAPI\\restaurantAPI.csproj|c:\\users\\gary\\documents\\code\\backend\\restaurant\\restaurant-api\\restaurantapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8426C5CB-8EC1-45B7-A56C-0EB9D83E0E8F}|restaurantAPI\\restaurantAPI.csproj|solutionrelative:restaurantapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FFAE6DD-DEF2-4175-BC74-DD932725893F}|SqliteInfrastructure\\SqliteInfrastructure.csproj|c:\\users\\gary\\documents\\code\\backend\\restaurant\\restaurant-api\\sqliteinfrastructure\\sqliteinfrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2FFAE6DD-DEF2-4175-BC74-DD932725893F}|SqliteInfrastructure\\SqliteInfrastructure.csproj|solutionrelative:sqliteinfrastructure\\sqliteinfrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8426C5CB-8EC1-45B7-A56C-0EB9D83E0E8F}|restaurantAPI\\restaurantAPI.csproj|c:\\users\\gary\\documents\\code\\backend\\restaurant\\restaurant-api\\restaurantapi\\restaurantapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8426C5CB-8EC1-45B7-A56C-0EB9D83E0E8F}|restaurantAPI\\restaurantAPI.csproj|solutionrelative:restaurantapi\\restaurantapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8426C5CB-8EC1-45B7-A56C-0EB9D83E0E8F}|restaurantAPI\\restaurantAPI.csproj|c:\\users\\gary\\documents\\code\\backend\\restaurant\\restaurant-api\\restaurantapi\\repository\\restaurantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8426C5CB-8EC1-45B7-A56C-0EB9D83E0E8F}|restaurantAPI\\restaurantAPI.csproj|solutionrelative:restaurantapi\\repository\\restaurantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,16 +27,8 @@
       "RelativeMoniker": "D:0:0:{8426C5CB-8EC1-45B7-A56C-0EB9D83E0E8F}|restaurantAPI\\restaurantAPI.csproj|solutionrelative:restaurantapi\\interface\\irestaurantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8426C5CB-8EC1-45B7-A56C-0EB9D83E0E8F}|restaurantAPI\\restaurantAPI.csproj|c:\\users\\gary\\documents\\code\\backend\\restaurant\\restaurant-api\\restaurantapi\\restaurantapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{8426C5CB-8EC1-45B7-A56C-0EB9D83E0E8F}|restaurantAPI\\restaurantAPI.csproj|solutionrelative:restaurantapi\\restaurantapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8426C5CB-8EC1-45B7-A56C-0EB9D83E0E8F}|restaurantAPI\\restaurantAPI.csproj|c:\\users\\gary\\documents\\code\\backend\\restaurant\\restaurant-api\\restaurantapi\\controllers\\restaurantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8426C5CB-8EC1-45B7-A56C-0EB9D83E0E8F}|restaurantAPI\\restaurantAPI.csproj|solutionrelative:restaurantapi\\controllers\\restaurantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8426C5CB-8EC1-45B7-A56C-0EB9D83E0E8F}|restaurantAPI\\restaurantAPI.csproj|c:\\users\\gary\\documents\\code\\backend\\restaurant\\restaurant-api\\restaurantapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8426C5CB-8EC1-45B7-A56C-0EB9D83E0E8F}|restaurantAPI\\restaurantAPI.csproj|solutionrelative:restaurantapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8426C5CB-8EC1-45B7-A56C-0EB9D83E0E8F}|restaurantAPI\\restaurantAPI.csproj|c:\\users\\gary\\documents\\code\\backend\\restaurant\\restaurant-api\\restaurantapi\\interface\\irestaurantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,17 +50,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SqliteInfrastructure",
+              "DocumentMoniker": "C:\\Users\\Gary\\Documents\\code\\backend\\restaurant\\restaurant-api\\SqliteInfrastructure\\SqliteInfrastructure.csproj",
+              "RelativeDocumentMoniker": "SqliteInfrastructure\\SqliteInfrastructure.csproj",
+              "ToolTip": "C:\\Users\\Gary\\Documents\\code\\backend\\restaurant\\restaurant-api\\SqliteInfrastructure\\SqliteInfrastructure.csproj",
+              "RelativeToolTip": "SqliteInfrastructure\\SqliteInfrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-12T11:26:32.65Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "SqliteDBBuilder.cs",
               "DocumentMoniker": "C:\\Users\\Gary\\Documents\\code\\backend\\restaurant\\restaurant-api\\SqliteInfrastructure\\SqliteDBBuilder.cs",
               "RelativeDocumentMoniker": "SqliteInfrastructure\\SqliteDBBuilder.cs",
-              "ToolTip": "C:\\Users\\Gary\\Documents\\code\\backend\\restaurant\\restaurant-api\\SqliteInfrastructure\\SqliteDBBuilder.cs",
-              "RelativeToolTip": "SqliteInfrastructure\\SqliteDBBuilder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Gary\\Documents\\code\\backend\\restaurant\\restaurant-api\\SqliteInfrastructure\\SqliteDBBuilder.cs*",
+              "RelativeToolTip": "SqliteInfrastructure\\SqliteDBBuilder.cs*",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwCgAAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-12T10:12:04.415Z",
               "EditorCaption": ""
@@ -76,20 +97,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Gary\\Documents\\code\\backend\\restaurant\\restaurant-api\\restaurantAPI\\Program.cs",
               "RelativeDocumentMoniker": "restaurantAPI\\Program.cs",
               "ToolTip": "C:\\Users\\Gary\\Documents\\code\\backend\\restaurant\\restaurant-api\\restaurantAPI\\Program.cs",
               "RelativeToolTip": "restaurantAPI\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABoAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-08T12:40:58.942Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "RestaurantRepository.cs",
               "DocumentMoniker": "C:\\Users\\Gary\\Documents\\code\\backend\\restaurant\\restaurant-api\\restaurantAPI\\Repository\\RestaurantRepository.cs",
               "RelativeDocumentMoniker": "restaurantAPI\\Repository\\RestaurantRepository.cs",
@@ -102,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "RestaurantService.cs",
               "DocumentMoniker": "C:\\Users\\Gary\\Documents\\code\\backend\\restaurant\\restaurant-api\\restaurantAPI\\Services\\RestaurantService.cs",
               "RelativeDocumentMoniker": "restaurantAPI\\Services\\RestaurantService.cs",
@@ -115,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "IRestaurantService.cs",
               "DocumentMoniker": "C:\\Users\\Gary\\Documents\\code\\backend\\restaurant\\restaurant-api\\restaurantAPI\\Interface\\IRestaurantService.cs",
               "RelativeDocumentMoniker": "restaurantAPI\\Interface\\IRestaurantService.cs",
@@ -128,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "IRestaurantRepository.cs",
               "DocumentMoniker": "C:\\Users\\Gary\\Documents\\code\\backend\\restaurant\\restaurant-api\\restaurantAPI\\Interface\\IRestaurantRepository.cs",
               "RelativeDocumentMoniker": "restaurantAPI\\Interface\\IRestaurantRepository.cs",
@@ -141,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "restaurantAPI",
               "DocumentMoniker": "C:\\Users\\Gary\\Documents\\code\\backend\\restaurant\\restaurant-api\\restaurantAPI\\restaurantAPI.csproj",
               "RelativeDocumentMoniker": "restaurantAPI\\restaurantAPI.csproj",
@@ -153,7 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "RestaurantsController.cs",
               "DocumentMoniker": "C:\\Users\\Gary\\Documents\\code\\backend\\restaurant\\restaurant-api\\restaurantAPI\\Controllers\\RestaurantsController.cs",
               "RelativeDocumentMoniker": "restaurantAPI\\Controllers\\RestaurantsController.cs",
@@ -163,10 +184,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-08T12:12:05.525Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
