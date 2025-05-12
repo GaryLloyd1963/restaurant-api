@@ -23,6 +23,8 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
+
+    SqliteInfrastructure.SqliteDBBuilder.BuildDatabase();
 }
 
 if (app.Environment.IsDevelopment())
