@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "restaurantAPI", "restaurant
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqliteInfrastructure", "SqliteInfrastructure\SqliteInfrastructure.csproj", "{2FFAE6DD-DEF2-4175-BC74-DD932725893F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantCore", "RestaurantCore\RestaurantCore.csproj", "{749B0768-D4EB-4291-99E9-D7EBDE1B7615}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{2FFAE6DD-DEF2-4175-BC74-DD932725893F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FFAE6DD-DEF2-4175-BC74-DD932725893F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FFAE6DD-DEF2-4175-BC74-DD932725893F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{749B0768-D4EB-4291-99E9-D7EBDE1B7615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{749B0768-D4EB-4291-99E9-D7EBDE1B7615}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{749B0768-D4EB-4291-99E9-D7EBDE1B7615}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{749B0768-D4EB-4291-99E9-D7EBDE1B7615}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

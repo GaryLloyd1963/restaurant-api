@@ -1,5 +1,5 @@
 ﻿using restaurantAPI.Interface;
-using restaurantAPI.Model;
+using RestaurantCore.Model;
 
 namespace restaurantAPI.Services
 {
