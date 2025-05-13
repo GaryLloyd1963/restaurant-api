@@ -3,12 +3,12 @@ Demo restaurant management.
 
 # Design
 ## Component diagram (target)
-![Alt text](https://github.com/GaryLloyd1963/restaurant-api/blob/main/images/ComponentDiagram.JPG)
 
 <img src="https://github.com/GaryLloyd1963/restaurant-api/blob/main/images/ComponentDiagram.JPG" width="600">
 
 ## Domain model (target)
-![Alt text](https://github.com/GaryLloyd1963/restaurant-api/blob/main/images/DomainModel.JPG)
+
+<img src="https://github.com/GaryLloyd1963/restaurant-api/blob/main/images/DomainModel.JPG" width="600">
 
 # Tech stack
 C# .NET 9.0
