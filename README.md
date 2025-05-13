@@ -1,6 +1,13 @@
 # restaurant-api
 Demo restaurant management.
 
+# Design
+## Component diagram
+![Alt text](images/ComponentDiagram.jpg)
+
+## Domain model (target)
+![Alt text](images/DomainModel.jpg)
+
 # Tech stack
 C# .NET 9.0
 SQLite
