@@ -14,7 +14,7 @@ Demo restaurant management.
 C# .NET 9.0
 SQLite
 
-# Installation
+# API Installation
 Clone repository and build. When run the application, it will create a SQLite database file in the root directory,
 and will be accessible on http://localhost:5252
 
