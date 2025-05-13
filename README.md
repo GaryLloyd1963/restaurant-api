@@ -2,11 +2,11 @@
 Demo restaurant management.
 
 # Design
-## Component diagram
-![Alt text](https://github.com/GaryLloyd1963/restaurant-api/blob/main/images/ComponentDiagram.JPG))
+## Component diagram (target)
+![Alt text](https://github.com/GaryLloyd1963/restaurant-api/blob/main/images/ComponentDiagram.JPG)
 
 ## Domain model (target)
-![Alt text](https://github.com/GaryLloyd1963/restaurant-api/blob/main/images/DomainModel.JPG))
+![Alt text](https://github.com/GaryLloyd1963/restaurant-api/blob/main/images/DomainModel.JPG)
 
 # Tech stack
 C# .NET 9.0
