@@ -1,5 +1,5 @@
 # restaurant-api
-Demo restaurant management - WORK IN PROGRESS FOLKS
+Demo restaurant management - WORK IN PROGRESS FOLKS!
 
 # Design
 ## Component diagram (target)
