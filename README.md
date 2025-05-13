@@ -6,7 +6,7 @@ Demo restaurant management.
 ![Alt text](https://github.com/GaryLloyd1963/restaurant-api/blob/main/images/ComponentDiagram.JPG))
 
 ## Domain model (target)
-![Alt text](images/DomainModel.jpg)
+![Alt text](https://github.com/GaryLloyd1963/restaurant-api/blob/main/images/DomainModel.JPG))
 
 # Tech stack
 C# .NET 9.0
