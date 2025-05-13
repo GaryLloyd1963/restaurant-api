@@ -2,6 +2,8 @@
 Demo restaurant management.
 
 # Design
+## Component diagram
+
 ## Domain model (target)
 ![Alt text](images/DomainModel.jpg)
 
