@@ -3,7 +3,8 @@ Demo restaurant management.
 
 # Design
 ## Component diagram (target)
-![Alt text](https://github.com/GaryLloyd1963/restaurant-api/blob/main/images/ComponentDiagram.JPG | width="200")
+![Alt text](https://github.com/GaryLloyd1963/restaurant-api/blob/main/images/ComponentDiagram.JPG)
+<img src="[https://github.com/favicon.ico](https://github.com/GaryLloyd1963/restaurant-api/blob/main/images/ComponentDiagram.JPG)" width="200">
 
 ## Domain model (target)
 ![Alt text](https://github.com/GaryLloyd1963/restaurant-api/blob/main/images/DomainModel.JPG)
