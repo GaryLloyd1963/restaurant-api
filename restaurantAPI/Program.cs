@@ -1,7 +1,6 @@
 ﻿using restaurantAPI.Interface;
 using restaurantAPI.Repository;
 using restaurantAPI.Services;
-using RestaurantCore.Model;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -24,7 +23,13 @@ if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
 
-    SqliteInfrastructure.SqliteDBBuilder.BuildDatabase(true);
+    var connectionString = builder.Configuration.GetConnectionString("RestaurantsDb");
+    if (string.IsNullOrEmpty(connectionString))
+    {
+        throw new InvalidOperationException("Connection string 'RestaurantsDb' is not configured.");
+    }
+
+    SqliteInfrastructure.SqliteDBBuilder.BuildDatabase(connectionString, true);
 }
 
 if (app.Environment.IsDevelopment())
