@@ -1,26 +1,54 @@
-﻿using restaurantAPI.Interface;
+﻿using Microsoft.Data.Sqlite;
+using restaurantAPI.Interface;
 using RestaurantCore.Model;
 
 namespace restaurantAPI.Repository
 {
     public class RestaurantRepository : IRestaurantRepository
     {
-        private static readonly Restaurant[] restaurantData = new[]
+        private readonly IConfiguration _configuration;
+
+        public RestaurantRepository(IConfiguration configuration)
         {
-            new Restaurant { Id = Guid.NewGuid(), Name = "Casa Roberto", Address = "1 Acacia Avenue", Phone = "1234567890" },
-            new Restaurant { Id = Guid.NewGuid(), Name = "Kaths Cafe", Address = "Albert Square", Phone = "0987654321" },
-            new Restaurant { Id = Guid.NewGuid(), Name = "Loads Of Nosh", Address = "Binks Yard", Phone = "1122334455" },
-            new Restaurant { Id = Guid.NewGuid(), Name = "Hot Curry Time", Address = "Maid Marion Way", Phone = "2233445566" },
-            new Restaurant { Id = Guid.NewGuid(), Name = "Mexican Standoff", Address = "Hockley", Phone = "3344556677" }
-        };
+            _configuration = configuration ?? throw new ArgumentNullException(nameof(configuration));
+        }
 
         public IEnumerable<Restaurant> GetAll()
         {
-            return [.. restaurantData];
+            var connectionString = _configuration.GetConnectionString("RestaurantsDB");
+            var selectedRestaurants = new List<Restaurant>();
+            try
+            {
+
+                using (var connection = new SqliteConnection(connectionString))
+                {
+                    connection.Open();
+                    var command = connection.CreateCommand();
+                    command.CommandText = $"SELECT * FROM Restaurants;";
+                    var reader = command.ExecuteReader();
+
+                    while (reader.Read())
+                    {
+                        var restaurant = new Restaurant
+                        {
+                            Id = Guid.Parse(reader["UUID"].ToString()),
+                            Name = reader["Name"].ToString(),
+                            Address = reader["Address"].ToString(),
+                            Phone = reader["Phone"].ToString()
+                        };
+                        selectedRestaurants.Add(restaurant);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error connecting to database: {ex.Message}");
+            }
+            return [.. selectedRestaurants];
         }
         public Restaurant GetById(Guid id)
         {
-            return restaurantData[0];
+            return new Restaurant { Id = Guid.NewGuid(), Name = "Casa Roberto", Address = "1 Acacia Avenue", Phone = "1234567890" };
         }
         public void Add(Restaurant restaurant)
         {
