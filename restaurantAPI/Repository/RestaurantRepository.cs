@@ -1,4 +1,5 @@
-﻿using restaurantAPI.Interface;
+﻿using Microsoft.Data.Sqlite;
+using restaurantAPI.Interface;
 using RestaurantCore.Model;
 
 namespace restaurantAPI.Repository
@@ -14,8 +15,30 @@ namespace restaurantAPI.Repository
             new Restaurant { Id = Guid.NewGuid(), Name = "Mexican Standoff", Address = "Hockley", Phone = "3344556677" }
         };
 
+        private readonly IConfiguration _configuration;
+
+        public RestaurantRepository(IConfiguration configuration)
+        {
+            _configuration = configuration ?? throw new ArgumentNullException(nameof(configuration));
+        }
+
         public IEnumerable<Restaurant> GetAll()
         {
+            var connectionString = _configuration.GetConnectionString("RestaurantsDB");
+            try
+            {
+                using (var connection = new SqliteConnection(connectionString))
+                {
+                    connection.Open();
+                    var command = connection.CreateCommand();
+                    command.CommandText = $"SELECT * FROM Restaurants;";
+                    var result = command.ExecuteScalar();
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error connecting to database: {ex.Message}");
+            }
             return [.. restaurantData];
         }
         public Restaurant GetById(Guid id)
