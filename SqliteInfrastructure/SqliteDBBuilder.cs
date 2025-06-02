@@ -4,11 +4,9 @@ namespace SqliteInfrastructure
 {
     public class SqliteDBBuilder
     {
-        private static readonly string restaurantDbConnectionString = "Data Source=restaurants.db";
-
-        public static string BuildDatabase(bool populate)
+        public static string BuildDatabase(string connectionString, bool populate)
         {
-            return BuildRestaurantDatabase(populate);
+            return BuildRestaurantDatabase(connectionString, populate);
         }
 
         private static bool TableExists(SqliteConnection connection, string tableName)
@@ -42,11 +40,11 @@ namespace SqliteInfrastructure
             }
         }
 
-        private static string BuildRestaurantDatabase(bool populate)
+        private static string BuildRestaurantDatabase(string connectionString, bool populate)
         {
             try
             {
-                using (var connection = new SqliteConnection(restaurantDbConnectionString))
+                using (var connection = new SqliteConnection(connectionString))
                 {
                     connection.Open();
                     if (!TableExists(connection, "Restaurants"))
