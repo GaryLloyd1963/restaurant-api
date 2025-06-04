@@ -25,3 +25,5 @@ and will be accessible on http://localhost:5252
 1. Tests - this has not been a TDD exercise and will need a test project
 2. Should the repository be a SQLite dedicated class?
 3. DTO on output - the endpoint responses should have a DTO class to avoid direct return of data
+4. Need to implement all endpoints
+5. Should filtering on the GET be in OData format?
